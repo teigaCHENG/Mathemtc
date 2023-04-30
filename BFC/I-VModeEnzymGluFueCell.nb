@@ -1,0 +1,230 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7332,        222]
+NotebookOptionsPosition[      6129,        191]
+NotebookOutlinePosition[      6461,        206]
+CellTagsIndexPosition[      6418,        203]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Current-Voltage Modeling of the Enzymatic Glucose Fuel Cells", "Title",
+ CellChangeTimes->{{3.78144290729031*^9, 
+  3.781442931930113*^9}},ExpressionUUID->"47bf220a-1d63-413b-b769-\
+d7dcd2238249"],
+
+Cell[CellGroupData[{
+
+Cell["ELectroCHemitry ", "Chapter",
+ CellChangeTimes->{{3.784416573378235*^9, 
+  3.784416588153508*^9}},ExpressionUUID->"1c13f956-48d3-4821-aa71-\
+a3c9c6ca834d"],
+
+Cell[CellGroupData[{
+
+Cell["electrode process introduction & review", "Section",
+ CellChangeTimes->{{3.784416730049054*^9, 
+  3.784416743596258*^9}},ExpressionUUID->"142e2781-1af7-4c18-a7eb-\
+da4f7252201d"],
+
+Cell[CellGroupData[{
+
+Cell["Introduction", "Subsection",
+ CellChangeTimes->{{3.784416676273518*^9, 
+  3.7844166884997873`*^9}},ExpressionUUID->"16039ebd-625c-447a-8700-\
+15ee10e0d25f"],
+
+Cell["\<\
+chemical changes caused by the passage of  an electric current and the \
+production of electrical energy by chemical reactions.
+  Reaction thermodynamic data, unstable intermediate, rate of decay or \
+spectroscopic properties, trace amounts of metal ions or organic species \
+solution\
+\>", "Text",
+ CellChangeTimes->{{3.7844906546187143`*^9, 
+  3.7844906668858128`*^9}},ExpressionUUID->"35d09f84-f7f8-4db3-a999-\
+04288cc19114"],
+
+Cell[CellGroupData[{
+
+Cell["electrochemical cells & electrochemical reactions", "Subsubsection",
+ CellChangeTimes->{{3.784416631391828*^9, 
+  3.784416657257882*^9}},ExpressionUUID->"363b5b18-98d6-41fd-b1d8-\
+5a410272ce8a"],
+
+Cell[TextData[{
+ "the overall chemical reaction taking place in a cell is made up of two \
+independent ",
+ StyleBox["half-reactions",
+  FontWeight->"Bold"],
+ ", which describe the real chemical changes at the two electrodes.\neach ",
+ StyleBox["half-reaction",
+  FontWeight->"Bold"],
+ " responds to the ",
+ StyleBox["interfacial potential difference",
+  FontWeight->"Bold"],
+ " at the ",
+ StyleBox["corresponding electrode",
+  FontWeight->"Bold"],
+ ". \nwhen observing or controlling the ",
+ StyleBox["potential",
+  FontWeight->"Bold"],
+ " ",
+ StyleBox["of the working electrode",
+  FontWeight->"Bold"],
+ " with respect to the reference, and that is  equivalent to observing or \
+controlling the ",
+ StyleBox["energy of the electrons",
+  FontWeight->"Bold"],
+ " ",
+ StyleBox["within the working electrode",
+  FontWeight->"Bold"],
+ ".\nby driving the electrode to ",
+ StyleBox["more negative potentials",
+  FontWeight->"Bold"],
+ ", the ",
+ StyleBox["energy",
+  FontWeight->"Bold"],
+ " of the electrons is ",
+ StyleBox["raised",
+  FontWeight->"Bold"],
+ ". the ",
+ StyleBox["electrons",
+  FontWeight->"Bold"],
+ " can reach a level high enough to ",
+ StyleBox["transfer from electrode to solution",
+  FontWeight->"Bold"],
+ ".\nthe ",
+ StyleBox["energy of the electrons ",
+  FontWeight->"Bold"],
+ "can be ",
+ StyleBox["lowered",
+  FontWeight->"Bold"],
+ " by imposing a more positive potential, and  at some point ",
+ StyleBox["electrons ",
+  FontWeight->"Bold"],
+ StyleBox["on solutes in the electrolyte",
+  FontSlant->"Italic"],
+ " will find a more favorable ",
+ StyleBox["energy on the electrode and will transfer there",
+  FontWeight->"Bold"],
+ ".\n",
+ StyleBox["the flow ",
+  FontWeight->"Bold"],
+ StyleBox["from solution to electrode",
+  FontWeight->"Bold",
+  FontSlant->"Italic"],
+ StyleBox[" is an oxidation (anodic, YANGJI) current\ndirection of electron \
+flow is from the electrode to protons in solution, so a reduction (cathodic, \
+YINJI) current flows\n",
+  FontWeight->"Bold"],
+ "calculate the open-circuit potential ",
+ StyleBox["from thermodynamic data",
+  FontWeight->"Bold"],
+ ", that is, from the standard potentials of the half-reactions involved at \
+both electrodes via ",
+ StyleBox["NERNST EQUATION",
+  FontWeight->"Bold"],
+ ".\n",
+ StyleBox["IN THE CONVENTION USED IN THIS BOOK, CATHODIC CURRENT ARE TAKEN AS \
+POSITIVE,  AND NEGATIVE POTENTIALS ARE PLOTTED TO THE RIGHT . ",
+  FontWeight->"Bold"],
+ " \n",
+ StyleBox[" ",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.7844907769304733`*^9, 3.784490906231234*^9}, 
+   3.784490938179996*^9, {3.784491134926498*^9, 3.784491232508896*^9}, 
+   3.784491270033204*^9, {3.784491572271976*^9, 3.7844916740631733`*^9}, {
+   3.784491709743989*^9, 3.784491815759557*^9}, {3.784492011307893*^9, 
+   3.784492038955681*^9}, {3.784492337247447*^9, 3.784492453476492*^9}, 
+   3.784493676901263*^9, 3.7844939695385857`*^9, {3.7844942179722147`*^9, 
+   3.784494304356635*^9}, {3.784495127468861*^9, 3.784495192917904*^9}, 
+   3.784499770888369*^9},ExpressionUUID->"eabd4d53-c7d5-40bd-b6ce-\
+66d046810959"],
+
+Cell[BoxData[
+ RowBox[{"MaterialKineticEquation", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"DiffusionCoeficient", " ", 
+     RowBox[{"D", "[", 
+      RowBox[{
+       RowBox[{"GlucoseConcentration", "[", "z", "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"z", ",", "2"}], "}"}]}], "]"}]}], "-", 
+    RowBox[{"2", " ", "Kcat", " ", "Et", " ", 
+     FractionBox[
+      RowBox[{"GlucoseConcentration", "[", "z", "]"}], 
+      RowBox[{"Km", "+", 
+       RowBox[{"GlucoseConcentration", "[", "z", "]"}]}]]}]}], "\[Equal]", 
+   "0"}]}]], "Code",
+ CellChangeTimes->{{3.7883774424623337`*^9, 3.788377580487443*^9}, {
+  3.788377635583685*^9, 
+  3.7883776836304197`*^9}},ExpressionUUID->"2c96e1cb-5e50-47d0-9882-\
+90320bab404a"],
+
+Cell[BoxData[
+ RowBox[{"NDSolve", "[", 
+  RowBox[{
+   RowBox[{"G", "[", "z", "]"}], ",", "z"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7883778287827377`*^9, 
+  3.788377848872641*^9}},ExpressionUUID->"e166d48a-a350-4d1e-8015-\
+6b9a4d379631"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{960, 981},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 202, 3, 162, "Title",ExpressionUUID->"47bf220a-1d63-413b-b769-d7dcd2238249"],
+Cell[CellGroupData[{
+Cell[807, 29, 161, 3, 70, "Chapter",ExpressionUUID->"1c13f956-48d3-4821-aa71-a3c9c6ca834d"],
+Cell[CellGroupData[{
+Cell[993, 36, 184, 3, 68, "Section",ExpressionUUID->"142e2781-1af7-4c18-a7eb-da4f7252201d"],
+Cell[CellGroupData[{
+Cell[1202, 43, 162, 3, 55, "Subsection",ExpressionUUID->"16039ebd-625c-447a-8700-15ee10e0d25f"],
+Cell[1367, 48, 438, 9, 108, "Text",ExpressionUUID->"35d09f84-f7f8-4db3-a999-04288cc19114"],
+Cell[CellGroupData[{
+Cell[1830, 61, 200, 3, 46, "Subsubsection",ExpressionUUID->"363b5b18-98d6-41fd-b1d8-5a410272ce8a"],
+Cell[2033, 66, 3065, 89, 396, "Text",ExpressionUUID->"eabd4d53-c7d5-40bd-b6ce-66d046810959"],
+Cell[5101, 157, 721, 19, 72, "Code",ExpressionUUID->"2c96e1cb-5e50-47d0-9882-90320bab404a"],
+Cell[5825, 178, 240, 6, 31, "Input",ExpressionUUID->"e166d48a-a350-4d1e-8015-6b9a4d379631"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
