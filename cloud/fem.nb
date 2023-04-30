@@ -1,0 +1,15 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"Solve","[",RowBox[{RowBox[{"{",RowBox[
+{RowBox[{RowBox[{RowBox[{"a"," ","x1"}],"+","b"}],"==","u1"}],",",RowBox[{RowBox[
+{RowBox[{"a"," ","x2"}],"+","b"}],"==","u2"}]}],"}"}],",",RowBox[{"{",RowBox[{"a",",","b"}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[3]:= ",ExpressionUUID -> "7becf45e-cfc4-4d58-b3c3-dab57b009b63"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"{",RowBox[{RowBox[{"a","\[Rule]",RowBox[{"-",FractionBox[RowBox[
+{RowBox[{"-","u1"}],"+","u2"}],RowBox[{"x1","-","x2"}]]}]}],",",RowBox[{"b","\[Rule]",RowBox[
+{"-",FractionBox[RowBox[{RowBox[{RowBox[{"-","u2"}]," ","x1"}],"+",RowBox[{"u1"," ","x2"}]}],
+RowBox[{"x1","-","x2"}]]}]}]}],"}"}],"}"}],StandardForm],"Output",CellLabel -> "Out[3]= ",
+ExpressionUUID -> "194c6fb3-600f-435e-82ba-bd8089dc94f4"]},Open],ExpressionUUID -> "953714b7-8c36-4047-af21-1026c1142c1f"],Cell[
+BoxData[
+""],"Input",ExpressionUUID -> "cf7cb346-795a-4705-a697-a265e95b8494"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.1 for Wolfram Cloud 1.63 (June 21, 2022)"]

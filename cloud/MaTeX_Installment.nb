@@ -1,0 +1,899 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[     44586,        898]
+NotebookOptionsPosition[     39757,        802]
+NotebookOutlinePosition[     40091,        817]
+CellTagsIndexPosition[     40048,        814]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ResourceFunction", "[", "\"\<MaTeXInstall\>\"", "]"}], "[", 
+  "]"}]], "Code",
+ CellLabel->"In[1]:=",ExpressionUUID->"1c5a7444-4537-4ddd-aff8-993e4e1441f1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "Paclet", "[", "\<\"MaTeX\"\>", ",", "\<\"1.7.8\"\>", ",", "<>", "]"}],
+  PacletManager`Paclet[
+  "Name" -> "MaTeX", "Version" -> "1.7.8", "MathematicaVersion" -> "10.0+", 
+   "Description" -> "Create LaTeX-typeset labels within Mathematica.", 
+   "Keywords" -> {"LaTeX", "Typesetting", "Graphics"}, "Creator" -> 
+   "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>", "URL" -> 
+   "http://szhorvat.net/mathematica/MaTeX", "Thumbnail" -> "Logo.png", "Icon" -> 
+   "Logo.png", 
+   "Extensions" -> {{
+     "Documentation", "Language" -> All, "MainPage" -> "Guides/MaTeX"}, {
+     "Kernel", "Root" -> ".", "Context" -> "MaTeX`"}}, "Location" -> 
+   "/home/chengh/.Mathematica/Paclets/Repository/MaTeX-1.7.8"]]], "Output",
+ CellChangeTimes->{
+  3.814995671986863*^9, 3.815084178397689*^9, 3.81508423320653*^9, {
+   3.815085558071157*^9, 3.815085570963752*^9}, {3.815087912124844*^9, 
+   3.815087928808073*^9}, 3.815087984220778*^9, 3.815185117460287*^9, 
+   3.81525268264045*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"52c1f7de-cf01-4cc8-bfab-5788af4fd0a6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["LapTop in SIA", "Section",
+ CellChangeTimes->{{3.815184887272338*^9, 3.815184888558219*^9}, {
+   3.815184930799691*^9, 3.8151849371034255`*^9}, {3.8151850773846235`*^9, 
+   3.815185082754821*^9}, 3.815185190850541*^9},
+ FontFamily->"EB Garamond SC 12",
+ FontWeight->"Bold",ExpressionUUID->"a713ee2b-5bb2-4d82-8d04-16ef94178d37"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"PacletInstall", "[", 
+  "\"\<C:\\\\Users\\\\sia-cheng\\\\OneDrive\\\\Mathematica\\\\MaTeX-master\\\\\
+MaTeX-1.7.8.paclet\>\"", "]"}]}], "Code",
+ CellChangeTimes->{{3.814909482114758*^9, 3.814909483757324*^9}, {
+  3.8149107385202274`*^9, 3.814910762236159*^9}, {3.814910965894806*^9, 
+  3.8149110320125504`*^9}, {3.814911211996359*^9, 3.814911252745103*^9}, {
+  3.814911297670467*^9, 3.8149113046441555`*^9}, {3.814911370074769*^9, 
+  3.814911380160356*^9}, {3.814911496549015*^9, 3.814911497693955*^9}, {
+  3.814911603663129*^9, 3.814911605966999*^9}, {3.8149116564581785`*^9, 
+  3.8149116661785464`*^9}, {3.814911753586279*^9, 3.814911806599971*^9}, {
+  3.8149122692691154`*^9, 3.814912298603638*^9}, {3.81491282184625*^9, 
+  3.8149128268211126`*^9}, {3.814912878258338*^9, 3.814912880677903*^9}, {
+  3.8149161327090025`*^9, 3.8149161480183353`*^9}, {3.814918640146847*^9, 
+  3.8149186461204042`*^9}, {3.814918905440547*^9, 3.8149189255932584`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"a08c821c-672b-46d2-9a29-1c2d1399e408"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "System`PacletInstall","samevers",
+   "\"A paclet named \\!\\(\\*RowBox[{\\\"\\\\\\\"MaTeX\\\\\\\"\\\"}]\\) with \
+the same version number (\\!\\(\\*RowBox[{\\\"\\\\\\\"1.7.8\\\\\\\"\\\"}]\\)) \
+is already installed. Use PacletUninstall to remove the existing version \
+first, or call PacletInstall with ForceVersionInstall -> True.\"",2,8,2,
+   25030903546014306284,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8151851938290887`*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[7]:=",ExpressionUUID->"759151b6-1933-4d17-bfe3-\
+afebdbf4f822"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.8151851938400583`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"183b7fd2-8fe2-46a0-b786-7ec7bde07adc"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["LAB Server in SIA", "Section",
+ CellChangeTimes->{{3.815184887272338*^9, 3.815184888558219*^9}, {
+   3.815184930799691*^9, 3.8151849371034255`*^9}, {3.815185058640588*^9, 
+   3.815185069040388*^9}, 3.8151851830104938`*^9},
+ FontFamily->"EB Garamond SC 12",
+ FontWeight->"Bold",ExpressionUUID->"4a5b501f-ddec-43c1-b479-3a2cd981cca9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"PacletInstall", "[", 
+  "\"\</home/chengh/Downloads/MaTeX-1.7.8.paclet\>\"", "]"}]}], "Code",
+ CellChangeTimes->{{3.8150890377171907`*^9, 3.815089046625559*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"b69e7ac9-e461-43d1-a15e-4f16efe7508f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "System`PacletInstall","fnotfound",
+   "\"Paclet file \\!\\(\\*RowBox[{\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\home\\\\\\\\\
+\\\\\\\\chengh\\\\\\\\\\\\\\\\Downloads\\\\\\\\\\\\\\\\MaTeX-1.7.8.paclet\\\\\
+\\\"\\\"}]\\) not found.\"",2,6,1,25030903546014306284,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.81491894458487*^9, 3.814995255087628*^9, 
+  3.815089052824724*^9, 3.815185153231933*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[5]:=",ExpressionUUID->"f057251e-2663-4b99-9f76-\
+cf0856748798"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.81491894458487*^9, 3.814995255087628*^9, 
+  3.815089052838992*^9, 3.8151851532498846`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"6a3908bd-c849-4f51-83e2-f1b2f0f7e600"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"ConfigureMaTeX", "[", 
+   RowBox[{
+    RowBox[{
+    "\"\<pdfLaTeX\>\"", "\[Rule]", 
+     "\"\<C:\\\\texlive\\\\2020\\\\bin\\\\win32\\\\pdflatex.exe\>\""}], ",", 
+    RowBox[{
+    "\"\<Ghostscript\>\"", "\[Rule]", 
+     "\"\<C:\\\\Program \
+Files\\\\gs\\\\gs9.53.1\\\\bin\\\\gswin64c.exe\>\""}]}], "]"}]}]], "Code",
+ CellChangeTimes->{{3.8149129114701943`*^9, 3.81491294502699*^9}, {
+  3.814913016580964*^9, 3.8149130509166794`*^9}, {3.8149164309191933`*^9, 
+  3.8149164310987163`*^9}, {3.8149189672107334`*^9, 3.8149189808913336`*^9}, {
+  3.8149193693652515`*^9, 3.8149193706766615`*^9}},
+ EmphasizeSyntaxErrors->
+  True,ExpressionUUID->"a30a0ad9-67ea-4803-a280-6797434f8740"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Syntax","tsntxi",
+   "\"\\\"\\!\\(\\*RowBox[{\\\"(*\\\", RowBox[{\\\"ConfigureMaTeX\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"\\\\\\\"pdfLaTeX\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\texlive\\\\\\\\\\\\\\\\2020\\\\\\\\\\\\\\\\bin\\\
+\\\\\\\\\\\\\\win32\\\\\\\\\\\\\\\\pdflatex.exe\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"Ghostscript\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\Program \
+Files\\\\\\\\\\\\\\\\gs\\\\\\\\\\\\\\\\gs9.53.3\\\\\\\\\\\\\\\\bin\\\\\\\\\\\\\
+\\\\gswin64c.exe\\\\\\\"\\\"}]}], \\\"]\\\"}]}]\\)\\\" \:4e0d\:5b8c\:6574\
+\:ff1b\:9700\:8981\:66f4\:591a\:8f93\:5165.\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\
+\"\\\"}]\\)\"",2,18,35,25029157770978272819,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8149189880669193`*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[18]:=",ExpressionUUID->"65f4a63b-75f3-40c4-81c6-\
+a38ac140249a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"MaTeX`Developer`ResestConfiguration", "[", "]"}]}]], "Code",
+ CellChangeTimes->{{3.8149144870282845`*^9, 3.814914487029282*^9}, {
+  3.8149164339062023`*^9, 
+  3.814916434108661*^9}},ExpressionUUID->"3463d43d-d557-498c-8ed1-\
+7b2863f30a19"],
+
+Cell[BoxData[
+ RowBox[{"MaTeX`Developer`ResestConfiguration", "[", "]"}]], "Output",
+ CellChangeTimes->{3.8149144891027355`*^9},
+ CellLabel->"Out[63]=",ExpressionUUID->"8d2d2def-5ec8-4953-8a36-ca7aa8708c6b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["LAB DeskTop in SIA", "Section",
+ CellChangeTimes->{{3.815184887272338*^9, 3.815184888558219*^9}, {
+  3.815184930799691*^9, 3.8151849371034255`*^9}, {3.8151850023684177`*^9, 
+  3.8151850096116395`*^9}},
+ FontFamily->"EB Garamond SC 12",
+ FontWeight->"Bold",ExpressionUUID->"85cc6f8a-0f26-4f6e-9f53-1606fa4eec5b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"<<", "MaTeX`"}], "\n", 
+ RowBox[{"ConfigureMaTeX", "[", 
+  RowBox[{
+   RowBox[{
+   "\"\<pdfLaTeX\>\"", "\[Rule]", 
+    "\"\<D:\\\\texlive\\\\2019\\\\bin\\\\win32\\\\xelatex.exe\>\""}], ",", 
+   RowBox[{
+   "\"\<Ghostscript\>\"", "\[Rule]", 
+    "\"\<C:\\\\Program \
+Files\\\\gs\\\\gs9.53.1\\\\bin\\\\gswin64c.exe\>\""}]}], "]"}]}], "Code",
+ CellChangeTimes->{
+  3.8151081439068813`*^9, 3.815108233413001*^9, {3.815185320989128*^9, 
+   3.81518532811865*^9}},ExpressionUUID->"cd1af239-7867-4c19-bd60-\
+162c262cb835"],
+
+Cell[BoxData[
+ RowBox[{"ConfigureMaTeX", "[", 
+  RowBox[{
+   RowBox[{"\<\"pdfLaTeX\"\>", 
+    "\[Rule]", \
+"\<\"D:\\\\texlive\\\\2019\\\\bin\\\\win32\\\\xelatex.exe\"\>"}], ",", 
+   RowBox[{"\<\"Ghostscript\"\>", 
+    "\[Rule]", "\<\"C:\\\\Program \
+Files\\\\gs\\\\gs9.53.1\\\\bin\\\\gswin64c.exe\"\>"}]}], "]"}]], "Output",
+ CellChangeTimes->{3.815108237565238*^9, 3.815185201346534*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"fdc7a6a9-a078-468a-9534-a56d3f9bf42f"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["LapTop in SIA", "Section",
+ CellChangeTimes->{{3.815184887272338*^9, 3.815184888558219*^9}, {
+  3.815184930799691*^9, 3.8151849583754864`*^9}, {3.8151850126755548`*^9, 
+  3.8151850156934958`*^9}},
+ FontFamily->"EB Garamond SC 12",
+ FontWeight->"Bold",ExpressionUUID->"7699a2b6-464b-4214-8dc3-115e28027e86"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"<<", "MaTeX`"}], "\n", 
+ RowBox[{"ConfigureMaTeX", "[", 
+  RowBox[{
+   RowBox[{
+   "\"\<pdfLaTeX\>\"", "\[Rule]", 
+    "\"\<C:\\\\texlive\\\\2021\\\\bin\\\\win32\\\\xelatex.exe\>\""}], ",", 
+   RowBox[{
+   "\"\<Ghostscript\>\"", "\[Rule]", 
+    "\"\<C:\\\\Program \
+Files\\\\gs\\\\gs9.53.1\\\\bin\\\\gswin64c.exe\>\""}]}], "]"}]}], "Code",
+ CellChangeTimes->{{3.8149143682598457`*^9, 3.8149144015656676`*^9}, {
+  3.8149145183767796`*^9, 3.814914527902681*^9}, {3.8149190098926425`*^9, 
+  3.814919030696102*^9}, {3.8149193734748497`*^9, 3.814919373984028*^9}, {
+  3.8149197453759465`*^9, 3.8149197472781277`*^9}, {3.8149952003735857`*^9, 
+  3.8149952005898314`*^9}, {3.8151853339692745`*^9, 
+  3.815185335302709*^9}},ExpressionUUID->"a7f35fd8-54c9-4dc2-9c8d-\
+a0576a072c60"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"CacheSize\"\>", "\[Rule]", "100"}], ",", 
+   RowBox[{"\<\"WorkingDirectory\"\>", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\<\"pdfLaTeX\"\>", 
+    "\[Rule]", \
+"\<\"C:\\\\texlive\\\\2021\\\\bin\\\\win32\\\\xelatex.exe\"\>"}], ",", 
+   RowBox[{"\<\"Ghostscript\"\>", 
+    "\[Rule]", "\<\"C:\\\\Program \
+Files\\\\gs\\\\gs9.53.1\\\\bin\\\\gswin64c.exe\"\>"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.814912897717149*^9, 3.8149129635789795`*^9}, 
+   3.8149130218672733`*^9, {3.814913052628069*^9, 3.8149130752354975`*^9}, {
+   3.814914383039812*^9, 3.814914403048581*^9}, {3.8149145029445868`*^9, 
+   3.8149145288232174`*^9}, 3.814916440973296*^9, 3.8149187546215115`*^9, {
+   3.814919018981871*^9, 3.814919032081558*^9}, 3.814919681202903*^9, 
+   3.8149197486258965`*^9, 3.8149340087409296`*^9, 3.8149952228212156`*^9, 
+   3.814995628409272*^9, 3.8149956779105034`*^9, 3.814995806722533*^9, 
+   3.8150881362903233`*^9, 3.8151080395709133`*^9, {3.8151851023588796`*^9, 
+   3.8151851309988117`*^9}, 3.8151852068175063`*^9, 3.8151852754996767`*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"43e9e4cd-160e-4b8a-a512-50d53d22c739"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["LAB Server in SIA", "Section",
+ CellChangeTimes->{{3.815184887272338*^9, 3.815184888558219*^9}, {
+  3.815184930799691*^9, 3.8151849371034255`*^9}, {3.8151849910954876`*^9, 
+  3.8151849985416455`*^9}},
+ FontFamily->"EB Garamond SC 12",
+ FontWeight->"Bold",ExpressionUUID->"db5be596-d400-47e5-b3b2-abcb0693a41b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"<<", "MaTeX`"}], "\n", 
+ RowBox[{"ConfigureMaTeX", "[", 
+  RowBox[{
+   RowBox[{
+   "\"\<pdfLaTeX\>\"", "\[Rule]", 
+    "\"\</usr/local/texlive/2019/bin/x86_64-linux/xelatex\>\""}], ",", 
+   RowBox[{"\"\<Ghostscript\>\"", "\[Rule]", "\"\</usr/bin/gs\>\""}]}], 
+  "]"}]}], "Code",
+ CellChangeTimes->{
+  3.8150848584121847`*^9, {3.8150848886342278`*^9, 3.815084893716991*^9}, {
+   3.815085536196455*^9, 3.8150855467967777`*^9}, {3.815085671518278*^9, 
+   3.815085671625106*^9}, {3.8150895505321198`*^9, 3.815089550648525*^9}, {
+   3.8151853394717364`*^9, 3.8151853403254547`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"1ba5273d-72df-4981-a8d2-f9e4160d9bd9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"CacheSize\"\>", "\[Rule]", "100"}], ",", 
+   RowBox[{"\<\"WorkingDirectory\"\>", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\<\"pdfLaTeX\"\>", 
+    "\[Rule]", "\<\"/usr/local/texlive/2019/bin/x86_64-linux/xelatex\"\>"}], 
+   ",", 
+   RowBox[{"\<\"Ghostscript\"\>", "\[Rule]", "\<\"/usr/bin/gs\"\>"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.815085014296999*^9, 3.815085547689374*^9, 
+  3.815085596285838*^9, 3.815087774147586*^9, 3.8150890730411863`*^9, 
+  3.8150895515769787`*^9, 3.815252817459255*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"f940e46d-59e4-45d8-8f9d-70191aed78a0"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"updateMaTeX", "[", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"json", ",", "download", ",", "target"}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"Check", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"json", "=", 
+         RowBox[{"Import", "[", 
+          RowBox[{
+          "\"\<https://api.github.com/repos/szhorvat/MaTeX/releases/latest\>\"\
+", ",", "\"\<JSON\>\""}], "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"download", "=", 
+         RowBox[{"Lookup", "[", 
+          RowBox[{
+           RowBox[{"First", "@", 
+            RowBox[{"Lookup", "[", 
+             RowBox[{"json", ",", "\"\<assets\>\""}], "]"}]}], ",", 
+           "\"\<browser_download_url\>\""}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"target", "=", 
+         RowBox[{"FileNameJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"CreateDirectory", "[", "]"}], ",", 
+            "\"\<MaTeX.paclet\>\""}], "}"}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"If", "[", 
+         RowBox[{"$Notebooks", ",", 
+          RowBox[{"PrintTemporary", "@", 
+           RowBox[{"Labeled", "[", 
+            RowBox[{
+             RowBox[{"ProgressIndicator", "[", 
+              RowBox[{"Appearance", "\[Rule]", "\"\<Necklace\>\""}], "]"}], 
+             ",", "\"\<Downloading...\>\"", ",", "Right"}], "]"}]}], ",", 
+          RowBox[{"Print", "[", "\"\<Downloading...\>\"", "]"}]}], "]"}], ";",
+         "\[IndentingNewLine]", 
+        RowBox[{"URLSave", "[", 
+         RowBox[{"download", ",", "target"}], "]"}]}], ",", 
+       RowBox[{"Return", "[", "$Failed", "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"FileExistsQ", "[", "target", "]"}], ",", 
+       RowBox[{"PacletManager`PacletInstall", "[", "target", "]"}], ",", 
+       "$Failed"}], "]"}]}]}], "]"}]}]], "Code",
+ CellLabel->"In[49]:=",ExpressionUUID->"40bfc420-f596-4b25-816b-d11a88c25e97"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"updateMaTeX", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.8149169351771965`*^9, 3.814916935178195*^9}},
+ CellLabel->"In[95]:=",ExpressionUUID->"1c694ece-e0c6-41f9-9aef-398729fbad69"],
+
+Cell[BoxData[
+ RowBox[{"updateMaTeX", "[", "]"}]], "Output",
+ CellChangeTimes->{3.814916936451787*^9},
+ CellLabel->"Out[95]=",ExpressionUUID->"6c9e5053-fe7a-4472-a30e-b1cecc6b9b09"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"<<", "MaTeX`"}]], "Input",
+ CellChangeTimes->{{3.814913082109373*^9, 3.8149130855630856`*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"a6177ff7-9a34-4f8c-8d61-3218a0ca644d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ContextToFileName", "[", "\"\<MaTeX`Private`\>\"", "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[6]:=",ExpressionUUID->"9dfbea03-61ea-45db-bffe-bea83861a4be"],
+
+Cell[BoxData["\<\"MaTeX\\\\Private.m\"\>"], "Output",
+ CellChangeTimes->{3.8149340173539305`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"1bd217a8-416d-406d-ad20-32a5407a8424"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MaTeX", "[", 
+  RowBox[{"\"\<x\>\"", ",", 
+   RowBox[{"\"\<LogFileFunction\>\"", "\[Rule]", "Print"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8149197613237886`*^9, 3.814919766855228*^9}, 
+   3.814920091301027*^9},
+ CellLabel->"In[7]:=",ExpressionUUID->"c056b266-9793-4c0d-9e85-20407cf45bf7"],
+
+Cell[BoxData["\<\"This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live \
+2020/W32TeX) (preloaded format=xelatex 2020.11.21)  22 NOV 2020 \
+09:03\\nentering extended mode\\n restricted \\\\write18 enabled.\\n %&-line \
+parsing enabled.\\n**C:/Users/sia-cheng/AppData/Local/Temp/MaTeX_\
+usvhhvlgrglavfef/jonwoybskrmdcfbc\\n.tex\\n\\n(c:/Users/sia-cheng/AppData/\
+Local/Temp/MaTeX_usvhhvlgrglavfef/jonwoybskrmdcfbc.\\ntex\\nLaTeX2e \
+<2020-02-02> patch level 5\\nL3 programming layer \
+<2020-03-06>\\n(c:/texlive/2021/texmf-dist/tex/latex/standalone/standalone.\
+cls\\nDocument Class: standalone 2018/03/26 v1.3a Class to compile TeX \
+sub-files \
+stan\\ndalone\\n(c:/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty\\\
+nPackage: shellesc 2019/11/08 v1.0c unified shell escape interface for \
+LaTeX\\nPackage shellesc Info: Restricted shell escape enabled on input line \
+77.\\n)\\n(c:/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty\\\
+nPackage: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex \
+instead.\\n\\n(c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty\\\
+nPackage: iftex 2020/03/06 v1.0d TeX engine \
+tests\\n))\\n(c:/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty\\\
+nPackage: xkeyval 2014/12/03 v2.7a package option processing \
+(HA)\\n\\n(c:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex\\n(c:/\
+texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex\\n\\\\XKV@toks=\\\\\
+toks15\\n\\\\XKV@tempa@toks=\\\\toks16\\n\\n(c:/texlive/2021/texmf-dist/tex/\
+generic/xkeyval/keyval.tex))\\n\\\\XKV@depth=\\\\count163\\nFile: xkeyval.tex \
+2014/12/03 v2.7a key=value parser (HA)\\n))\\n\\\\sa@internal=\\\\count164\\n\
+\\\\c@sapage=\\\\count165\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/\
+standalone/standalone.cfg\\nFile: standalone.cfg 2018/03/26 v1.3a Default \
+configuration file for 'standalon\\ne' \
+class\\n)\\n(c:/texlive/2021/texmf-dist/tex/latex/base/article.cls\\nDocument \
+Class: article 2019/12/20 v1.4l Standard LaTeX document \
+class\\n(c:/texlive/2021/texmf-dist/tex/latex/base/size12.clo\\nFile: \
+size12.clo 2019/12/20 v1.4l Standard LaTeX file (size \
+option)\\n)\\n\\\\c@part=\\\\count166\\n\\\\c@section=\\\\count167\\n\\\\c@\
+subsection=\\\\count168\\n\\\\c@subsubsection=\\\\count169\\n\\\\c@paragraph=\
+\\\\count170\\n\\\\c@subparagraph=\\\\count171\\n\\\\c@figure=\\\\count172\\n\
+\\\\c@table=\\\\count173\\n\\\\abovecaptionskip=\\\\skip47\\n\\\\\
+belowcaptionskip=\\\\skip48\\n\\\\bibindent=\\\\dimen134\\n)\\n\\\\sa@box=\\\\\
+box45\\n)\\n\\\\MaTeXbox=\\\\box46\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/\
+base/inputenc.sty\\nPackage: inputenc 2018/08/11 v1.3c Input encoding file\\n\
+\\\\inpenc@prehook=\\\\toks17\\n\\\\inpenc@posthook=\\\\toks18\\n\\n\\\
+nPackage inputenc Warning: inputenc package ignored with utf8 based \
+engines.\\n\\n) \
+(c:/texlive/2021/texmf-dist/tex/latex/lm/lmodern.sty\\nPackage: lmodern \
+2009/10/30 v1.6 Latin Modern Fonts\\nLaTeX Font Info:    Overwriting symbol \
+font `operators' in version `normal'\\n(Font)                  OT1/cmr/m/n \
+--> OT1/lmr/m/n on input line 22.\\nLaTeX Font Info:    Overwriting symbol \
+font `letters' in version `normal'\\n(Font)                  OML/cmm/m/it --> \
+OML/lmm/m/it on input line 23.\\nLaTeX Font Info:    Overwriting symbol font \
+`symbols' in version `normal'\\n(Font)                  OMS/cmsy/m/n --> \
+OMS/lmsy/m/n on input line 24.\\nLaTeX Font Info:    Overwriting symbol font \
+`largesymbols' in version `normal'\\n(Font)                  OMX/cmex/m/n --> \
+OMX/lmex/m/n on input line 25.\\nLaTeX Font Info:    Overwriting symbol font \
+`operators' in version `bold'\\n(Font)                  OT1/cmr/bx/n --> \
+OT1/lmr/bx/n on input line 26.\\nLaTeX Font Info:    Overwriting symbol font \
+`letters' in version `bold'\\n(Font)                  OML/cmm/b/it --> \
+OML/lmm/b/it on input line 27.\\nLaTeX Font Info:    Overwriting symbol font \
+`symbols' in version `bold'\\n(Font)                  OMS/cmsy/b/n --> \
+OMS/lmsy/b/n on input line 28.\\nLaTeX Font Info:    Overwriting symbol font \
+`largesymbols' in version `bold'\\n(Font)                  OMX/cmex/m/n --> \
+OMX/lmex/m/n on input line 29.\\nLaTeX Font Info:    Overwriting math \
+alphabet `\\\\mathbf' in version `normal'\\n(Font)                  \
+OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.\\nLaTeX Font Info:    \
+Overwriting math alphabet `\\\\mathsf' in version `normal'\\n(Font)           \
+       OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.\\nLaTeX Font Info:    \
+Overwriting math alphabet `\\\\mathit' in version `normal'\\n(Font)           \
+       OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.\\nLaTeX Font Info:    \
+Overwriting math alphabet `\\\\mathtt' in version `normal'\\n(Font)           \
+       OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.\\nLaTeX Font Info:    \
+Overwriting math alphabet `\\\\mathbf' in version `bold'\\n(Font)             \
+     OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.\\nLaTeX Font Info:    \
+Overwriting math alphabet `\\\\mathsf' in version `bold'\\n(Font)             \
+     OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.\\nLaTeX Font Info:    \
+Overwriting math alphabet `\\\\mathit' in version `bold'\\n(Font)             \
+     OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.\\nLaTeX Font Info:    \
+Overwriting math alphabet `\\\\mathtt' in version `bold'\\n(Font)             \
+     OT1/cmtt/m/n --> OT1/lmtt/m/n on input line \
+38.\\n)\\n(c:/texlive/2021/texmf-dist/tex/latex/base/exscale.sty\\nPackage: \
+exscale 2018/09/24 v2.1i Standard LaTeX package exscale\\nLaTeX Font Info:    \
+Redeclaring symbol font `largesymbols' on input line 57.\\nLaTeX Font Info:   \
+ Overwriting symbol font `largesymbols' in version `normal'\\n(Font)          \
+        OMX/lmex/m/n --> OMX/cmex/m/n on input line 57.\\nLaTeX Font Info:    \
+Overwriting symbol font `largesymbols' in version `bold'\\n(Font)             \
+     OMX/lmex/m/n --> OMX/cmex/m/n on input line \
+57.\\n\\\\big@size=\\\\dimen135\\n)\\n(c:/texlive/2021/texmf-dist/tex/latex/\
+amsmath/amsmath.sty\\nPackage: amsmath 2020/01/20 v2.17e AMS math features\\n\
+\\\\@mathmargin=\\\\skip49\\n\\nFor additional information on amsmath, use \
+the `?' option.\\n(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty\\\
+nPackage: amstext 2000/06/29 v2.01 AMS \
+text\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty\\nFile: \
+amsgen.sty 1999/11/30 v2.0 generic functions\\n\\\\@emptytoks=\\\\toks19\\n\\\
+\\ex@=\\\\dimen136\\n))\\n(c:/texlive/2021/texmf-dist/tex/latex/amsmath/\
+amsbsy.sty\\nPackage: amsbsy 1999/11/29 v1.2d Bold Symbols\\n\\\\pmbraise@=\\\
+\\dimen137\\n)\\n(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty\\\
+nPackage: amsopn 2016/03/08 v2.02 operator \
+names\\n)\\n\\\\inf@bad=\\\\count174\\nLaTeX Info: Redefining \\\\frac on \
+input line \
+227.\\n\\\\uproot@=\\\\count175\\n\\\\leftroot@=\\\\count176\\nLaTeX Info: \
+Redefining \\\\overline on input line \
+389.\\n\\\\classnum@=\\\\count177\\n\\\\DOTSCASE@=\\\\count178\\nLaTeX Info: \
+Redefining \\\\ldots on input line 486.\\nLaTeX Info: Redefining \\\\dots on \
+input line 489.\\nLaTeX Info: Redefining \\\\cdots on input line \
+610.\\n\\\\Mathstrutbox@=\\\\box47\\n\\\\strutbox@=\\\\box48\\n\\\\big@size=\\\
+\\dimen138\\nLaTeX Font Info:    Redeclaring font encoding OML on input line \
+733.\\nLaTeX Font Info:    Redeclaring font encoding OMS on input line \
+734.\\n\\\\macc@depth=\\\\count179\\n\\\\c@MaxMatrixCols=\\\\count180\\n\\\\\
+dotsspace@=\\\\muskip16\\n\\\\c@parentequation=\\\\count181\\n\\\\dspbrk@lvl=\
+\\\\count182\\n\\\\tag@help=\\\\toks20\\n\\\\row@=\\\\count183\\n\\\\column@=\
+\\\\count184\\n\\\\maxfields@=\\\\count185\\n\\\\andhelp@=\\\\toks21\\n\\\\\
+eqnshift@=\\\\dimen139\\n\\\\alignsep@=\\\\dimen140\\n\\\\tagshift@=\\\\\
+dimen141\\n\\\\tagwidth@=\\\\dimen142\\n\\\\totwidth@=\\\\dimen143\\n\\\\\
+lineht@=\\\\dimen144\\n\\\\@envbody=\\\\toks22\\n\\\\multlinegap=\\\\skip50\\\
+n\\\\multlinetaggap=\\\\skip51\\n\\\\mathdisplay@stack=\\\\toks23\\nLaTeX \
+Info: Redefining \\\\[ on input line 2859.\\nLaTeX Info: Redefining \\\\] on \
+input line \
+2860.\\n)\\n(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty\\\
+nPackage: amssymb 2013/01/14 v3.01 AMS font \
+symbols\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty\\\
+nPackage: amsfonts 2013/01/14 v3.01 Basic AMSFonts \
+support\\n\\\\symAMSa=\\\\mathgroup4\\n\\\\symAMSb=\\\\mathgroup5\\nLaTeX \
+Font Info:    Redeclaring math symbol \\\\hbar on input line 98.\\nLaTeX Font \
+Info:    Overwriting math alphabet `\\\\mathfrak' in version `bold'\\n(Font)  \
+                U/euf/m/n --> U/euf/b/n on input line \
+106.\\n))\\n(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-\
+xdvipdfmx.def\\nFile: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: \
+xdvipdfmx\\n\\\\g__graphics_track_int=\\\\count186\\n\\\\l__pdf_internal_box=\
+\\\\box49\\n\\\\g__pdf_backend_object_int=\\\\count187\\n\\\\g__pdf_backend_\
+annotation_int=\\\\count188\\n)\\nNo file \
+jonwoybskrmdcfbc.aux.\\n\\\\openout1 = `jonwoybskrmdcfbc.aux'.\\n\\nLaTeX \
+Font Info:    Checking defaults for OML/cmm/m/it on input line 22.\\nLaTeX \
+Font Info:    ... okay on input line 22.\\nLaTeX Font Info:    Checking \
+defaults for OMS/cmsy/m/n on input line 22.\\nLaTeX Font Info:    ... okay on \
+input line 22.\\nLaTeX Font Info:    Checking defaults for OT1/cmr/m/n on \
+input line 22.\\nLaTeX Font Info:    ... okay on input line 22.\\nLaTeX Font \
+Info:    Checking defaults for T1/cmr/m/n on input line 22.\\nLaTeX Font \
+Info:    ... okay on input line 22.\\nLaTeX Font Info:    Checking defaults \
+for TS1/cmr/m/n on input line 22.\\nLaTeX Font Info:    Trying to load font \
+information for TS1+cmr on input line \
+2\\n2.\\n(c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd\\nFile: \
+ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions\\n)\\nLaTeX Font \
+Info:    ... okay on input line 22.\\nLaTeX Font Info:    Checking defaults \
+for TU/lmr/m/n on input line 22.\\nLaTeX Font Info:    ... okay on input line \
+22.\\nLaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line \
+22.\\nLaTeX Font Info:    ... okay on input line 22.\\nLaTeX Font Info:    \
+Checking defaults for U/cmr/m/n on input line 22.\\nLaTeX Font Info:    ... \
+okay on input line 22.\\nLaTeX Font Info:    Trying to load font information \
+for OT1+lmr on input line \
+2\\n4.\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd\\nFile: \
+ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern\\n)\\nLaTeX Font Info:   \
+ Trying to load font information for OML+lmm on input line \
+2\\n4.\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd\\nFile: \
+omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern\\n)\\nLaTeX Font Info:   \
+ Trying to load font information for OMS+lmsy on input line \
+\\n24.\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd\\nFile: \
+omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern\\n)\\nLaTeX Font Info:  \
+  Trying to load font information for U+msa on input line \
+24.\\n\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd\\nFile: \
+umsa.fd 2013/01/14 v3.01 AMS symbols A\\n)\\nLaTeX Font Info:    Trying to \
+load font information for U+msb on input line \
+24.\\n\\n\\n(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd\\nFile: \
+umsb.fd 2013/01/14 v3.01 AMS symbols \
+B\\n)\\nMATEXDEPTH:4.32004pt\\nMATEXHEIGHT:10.07994pt\\nMATEXWIDTH:6.67703pt\\\
+n[1\\n\\n] (./jonwoybskrmdcfbc.aux) ) \\nHere is how much of TeX's memory you \
+used:\\n 2169 strings out of 479418\\n 31623 string characters out of 5888104\
+\\n 265889 words of memory out of 5000000\\n 19674 multiletter control \
+sequences out of 15000+600000\\n 545056 words of font info for 43 fonts, out \
+of 8000000 for 9000\\n 1348 hyphenation exceptions out of 8191\\n \
+36i,5n,60p,316b,104s stack positions out of \
+5000i,500n,10000p,200000b,80000s\\n\\nOutput written on jonwoybskrmdcfbc.pdf \
+(1 page).\"\>"], "Print",
+ CellChangeTimes->{3.81493400148166*^9, 3.814934033601719*^9, 
+  3.8149345236071043`*^9, 3.814934566118247*^9, 3.8149347194598074`*^9, 
+  3.8149351080138617`*^9, 3.814935293105137*^9, 3.8149356057022953`*^9, 
+  3.8149358407120647`*^9, 3.814995830119815*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[7]:=",ExpressionUUID->"ff7f8c7b-eaf9-4b39-b15e-\
+f3e18f7a514b"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {Thickness[0.11574074074074076`], 
+   FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0,
+     1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+    3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 
+    3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {
+    1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}}, CompressedData["
+1:eJxdlH9IU1EUx+dmmKjT+dzae05ybqL2g0wNzKId/5DQTCUFfxGWtJlIGBiY
+MSMlEzEKKsSJZf4gFVYqYaSUGNEvUAsNDYUU9I+WGhkp/l67976dkQcuj8+9
+7557zvece7X5xWeMMolE4uYYmY4hdYzB2oHKmFkBAsruXRl214CTMxbHlurj
+NTCTkBff0CNAZLTDSjQQ9kdvayh08cKtS7VRGzzy3v7HA8ZfPFQFe4QOxYj/
+f+IhhqyPBUI68VuhZv6b90BOaJZm5JUShohZlXDS+q5dUs8h0++CApmjcSrA
+PL06GT2vQn7qf0Be8F29Y90Zh4LF9Uxg/lcVcJPMfw2CNyTfVo7Nh4ewfHID
+4KLJYXU6sBBbU8La4vzg0VY9XCN+96uRy0ReFZn+b+FxvZ6yAMrbST/dM/RA
+ZIjmeJg73zwec0iPetD8GnXIv1u6gofDXVxA4wmBl+lxWfYCHl4XmxctxhCm
+KycgU10rAnewBqYigqx2mQ6Z+u9w8Y2NuMsjHXqmQ6wAD6qrcsY0oSKrkYOJ
+jilK5LtZtalu3Rxkeaqqo7vEeOM5pssxHat/hD9E7uvkvriHgne8PKm+UI77
+afzPvZEnfKZUxhUp8kyK7dxW04ah9O2LBMuWFtn3bNp0VKmLM8n5eVowEp1M
+m4bOFdvVIdCC+Uflel3fFnJs/sETu8CO/PDj/baiJ3YD7ZsLWmibbJ89LJMA
+Pa9cCxJiIGP11OnZ/Wj1xPqyfLyRabmz/ZBpvT74Qc3xxH5Tiw7ZTszXxXRf
+TQjr4+t+4Mx3eWCpt2Dcl9XrW7DYT96iroHs/Agv1j/JaqDpm3bjfWHxyJA1
+Paom6YwUOZfcP7MEuTepO7ZxbdNA+/yUCryIf5ubeF9VYCufLfpslcIdUnc/
+NTKte7OL/5K463iWp8GN5RkmiOdvG5zM4l5HHt14P/Eoe1lkHtn5XvzP4vuQ
+vG2gefYFYL2cnDaXOHpkzAM5lTDnBeFEvxoVnKbsI+qgFvWVox6svxW4n/Zr
+CYdMdUhTIzvfT/bOCLDzff0H/muFeg==
+    "]]},
+  AspectRatio->Automatic,
+  BaselinePosition->Scaled[0.32439307852814453`],
+  ImageSize->{8.644612702366127, 16.338709838107096`},
+  PlotRange->{{0., 8.639999999999999}, {0., 16.34}}]], "Output",
+ CellChangeTimes->{
+  3.8149197681426673`*^9, 3.8149200929072523`*^9, 3.814920390499439*^9, 
+   3.8149207909383273`*^9, 3.814920845643731*^9, 3.8149209130817733`*^9, 
+   3.8149210567032223`*^9, 3.8149222748913026`*^9, 3.814922330698225*^9, 
+   3.81492237238997*^9, 3.8149224185498333`*^9, 3.814922516151173*^9, {
+   3.814933985333475*^9, 3.814934001519558*^9}, 3.8149340336406155`*^9, 
+   3.8149345236260834`*^9, 3.814934566141219*^9, 3.8149347194827104`*^9, 
+   3.8149351080298195`*^9, 3.8149352931210947`*^9, 3.8149356057192535`*^9, 
+   3.8149358407289867`*^9, 3.8149958307934647`*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"e25d75d8-e8e3-425b-a49f-8456bcaab658"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MaTeX", "[", "\"\<x^2\>\"", "]"}]], "Input",
+ CellChangeTimes->{
+  3.8149341480819635`*^9, {3.8149959022604446`*^9, 3.8149959129788685`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"1e00905b-3539-4dae-8caa-e631321f1e2d"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {Thickness[0.07473841554559042], 
+   FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0,
+     1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+    3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 
+    3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {
+    1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}}, CompressedData["
+1:eJxdlH9IU1EUx+dmmKjT+dzae05ybqL2g0wNzKId/5DQTCUFfxGWtJlIGBiY
+MSMlEzEKKsSJZf4gFVYqYaSUGNEvUAsNDYUU9I+WGhkp/l67976dkQcuj8+9
+7557zvece7X5xWeMMolE4uYYmY4hdYzB2oHKmFkBAsruXRl214CTMxbHlurj
+NTCTkBff0CNAZLTDSjQQ9kdvayh08cKtS7VRGzzy3v7HA8ZfPFQFe4QOxYj/
+f+IhhqyPBUI68VuhZv6b90BOaJZm5JUShohZlXDS+q5dUs8h0++CApmjcSrA
+PL06GT2vQn7qf0Be8F29Y90Zh4LF9Uxg/lcVcJPMfw2CNyTfVo7Nh4ewfHID
+4KLJYXU6sBBbU8La4vzg0VY9XCN+96uRy0ReFZn+b+FxvZ6yAMrbST/dM/RA
+ZIjmeJg73zwec0iPetD8GnXIv1u6gofDXVxA4wmBl+lxWfYCHl4XmxctxhCm
+KycgU10rAnewBqYigqx2mQ6Z+u9w8Y2NuMsjHXqmQ6wAD6qrcsY0oSKrkYOJ
+jilK5LtZtalu3Rxkeaqqo7vEeOM5pssxHat/hD9E7uvkvriHgne8PKm+UI77
+afzPvZEnfKZUxhUp8kyK7dxW04ah9O2LBMuWFtn3bNp0VKmLM8n5eVowEp1M
+m4bOFdvVIdCC+Uflel3fFnJs/sETu8CO/PDj/baiJ3YD7ZsLWmibbJ89LJMA
+Pa9cCxJiIGP11OnZ/Wj1xPqyfLyRabmz/ZBpvT74Qc3xxH5Tiw7ZTszXxXRf
+TQjr4+t+4Mx3eWCpt2Dcl9XrW7DYT96iroHs/Agv1j/JaqDpm3bjfWHxyJA1
+Paom6YwUOZfcP7MEuTepO7ZxbdNA+/yUCryIf5ubeF9VYCufLfpslcIdUnc/
+NTKte7OL/5K463iWp8GN5RkmiOdvG5zM4l5HHt14P/Eoe1lkHtn5XvzP4vuQ
+vG2gefYFYL2cnDaXOHpkzAM5lTDnBeFEvxoVnKbsI+qgFvWVox6svxW4n/Zr
+CYdMdUhTIzvfT/bOCLDzff0H/muFeg==
+    "]], FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+    0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 
+    3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+    0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGI9IGYC4jmLlHf+Oa7mcOqw09pMO3WHhJAg9QWeCP6L
+LO1v023VHDaoPmme91bNYUp7a9RlGTUHU5u9QdMU1RxeFW8V/f1a1SEj/0Pr
+ySuqDqI9Xq9YYPQWVYg581TgfLB5sQj+TBDoVITz1wrp8KWvU3Yw0FopfGGJ
+ugMDCHxQdjAD2fdQ3aHm04aA7FkqDmB3p2s4bNLLW8x4R8XhUYT49osLNBxS
+Yu+4Md9Qdaj9bVVwrkPTAea/ehA/QwvOB5tzSxvOl1n+wkNvv66DzLw4zdMG
+qhBzfug5iFROKjlrogznK197FMzgowjnV9//ccuYW8Ghhdd//ZRWXTh/A8hd
+MjpwPjh8QrQh/l2pANFvoe3QbeO5K+0Rgu++5uhyBgtFOD89DQi2KUL0lyD4
+TxIXXjPh14Hz/7x9fcDysY6D84RmobRXCnD+DJB9OxF8cHgaKDq8AMUbt57D
+ym8vK844KDn8+Vb6YE6hHsR+DmU4X2LqFc6MJhU4H+xPV1VoOOnC+bDwhPFN
+jEFAC5peVCDp4J8GJPxslBz+gswTVIfyFSDxx6AKDy9IOlKB89+A3HsawU8D
+AxWHgFvSNYlBanA+enoGAPMMPec=
+    "]]},
+  AspectRatio->Automatic,
+  BaselinePosition->Scaled[0.3237956353650342],
+  ImageSize->{13.376866749688668`, 16.368856787048568`},
+  PlotRange->{{0., 13.38}, {0., 16.37}}]], "Output",
+ CellChangeTimes->{3.814995916012786*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"5d0d8106-f55f-4a74-a57b-d6133f9cdc6a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MaTeX", "[", 
+  RowBox[{"\"\<x^2\>\"", ",", 
+   RowBox[{"\"\<LogFileFunction\>\"", "\[Rule]", "Print"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.814914418650118*^9, 3.8149144291809864`*^9}, {
+  3.814914469893534*^9, 3.814914471483281*^9}, {3.814916754503946*^9, 
+  3.8149167553746157`*^9}, {3.81491699253723*^9, 3.8149170070963154`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"3626e61a-7c2b-48eb-9dd5-0fa904331ed5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"\:5728 \\!\\(\\*RowBox[{\\\"Import\\\"}]\\) \:671f\:95f4\:6ca1\:6709\
+\:627e\:5230\:6587\:4ef6 \\!\\(\\*RowBox[{\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\Users\
+\\\\\\\\\\\\\\\\sia-cheng\\\\\\\\\\\\\\\\AppData\\\\\\\\\\\\\\\\Local\\\\\\\\\
+\\\\\\\\Temp\\\\\\\\\\\\\\\\MaTeX_hycuunzacsmkcyvk\\\\\\\\\\\\\\\\\
+nrecfsanijdrxchq.log\\\\\\\"\\\"}]\\).\"",2,3,4,25029174744857433619,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8149144302900333`*^9, {3.8149144726671133`*^9, 3.8149144991058598`*^9}, 
+   3.814914542696536*^9, 3.8149164571309414`*^9, 3.814916756894245*^9, 
+   3.814916944691332*^9, {3.8149169965680103`*^9, 3.8149170163043118`*^9}, 
+   3.814918469811927*^9, 3.8149186654474344`*^9, 3.8149187200885725`*^9, 
+   3.8149196938390293`*^9, 3.814921105206462*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[3]:=",ExpressionUUID->"0aa67879-ca6f-4d98-900e-\
+5290066f12c7"],
+
+Cell[BoxData["$Failed"], "Print",
+ CellChangeTimes->{{3.8149169965789433`*^9, 3.8149170163133335`*^9}, 
+   3.814918469827517*^9, 3.814918665463066*^9, 3.8149187200885725`*^9, 
+   3.8149196938390293`*^9, 3.814921105222083*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[3]:=",ExpressionUUID->"d1dc02c4-7080-4250-89e0-\
+dc192abc6b9a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "MaTeX","texerr",
+   "\"Error while running \
+LaTeX.\\n\\!\\(\\*StyleBox[\\\"\\\\\\\"\\\\\\\"\\\", \\\"OutputForm\\\", \
+Rule[StripOnInput, False]]\\)\"",2,3,5,25029174744857433619,"Local",
+   "MaTeX`MaTeX"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8149144302900333`*^9, {3.8149144726671133`*^9, 3.8149144991058598`*^9}, 
+   3.814914542696536*^9, 3.8149164571309414`*^9, 3.814916756894245*^9, 
+   3.814916944691332*^9, {3.8149169965680103`*^9, 3.8149170163043118`*^9}, 
+   3.814918469811927*^9, 3.8149186654474344`*^9, 3.8149187200885725`*^9, 
+   3.8149196938390293`*^9, 3.814921105222083*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[3]:=",ExpressionUUID->"3e033a0e-ea94-4a44-9eef-\
+4e669eef4586"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "MaTeX","stderr",
+   "\"Additional error information \
+received:\\n\\!\\(\\*StyleBox[\\\"\\\\\\\"Can't locate TeXLive/TLUtils.pm in \
+@INC (you may need to install the TeXLive::TLUtils module) (@INC contains: \
+/usr/share/tlpkg /usr/share/texmf-dist/scripts/texlive \
+C:/texlive/2020/tlpkg/tlperl/lib c:/texlive/2020/tlpkg/tlperl/site/lib \
+c:/texlive/2020/tlpkg/tlperl/lib) at \
+c:\\\\\\\\\\\\\\\\texlive\\\\\\\\\\\\\\\\2020\\\\\\\\\\\\\\\\texmf-dist\\\\\\\
+\\\\\\\\\\scripts\\\\\\\\\\\\\\\\texlive\\\\\\\\\\\\\\\\fmtutil.pl line 46.\\\
+\\\\\\nBEGIN failed--compilation aborted at c:\\\\\\\\\\\\\\\\texlive\\\\\\\\\
+\\\\\\\\2020\\\\\\\\\\\\\\\\texmf-dist\\\\\\\\\\\\\\\\scripts\\\\\\\\\\\\\\\\\
+texlive\\\\\\\\\\\\\\\\fmtutil.pl line \
+46.\\\\\\\\nC:\\\\\\\\\\\\\\\\texlive\\\\\\\\\\\\\\\\2020\\\\\\\\\\\\\\\\bin\\\
+\\\\\\\\\\\\\\win32\\\\\\\\\\\\\\\\runscript.tlu:915: command failed with \
+exit code 2:\\\\\\\\nperl.exe c:\\\\\\\\\\\\\\\\texlive\\\\\\\\\\\\\\\\2020\\\
+\\\\\\\\\\\\\\texmf-dist\\\\\\\\\\\\\\\\scripts\\\\\\\\\\\\\\\\texlive\\\\\\\\\
+\\\\\\\\fmtutil.pl  --user --byfmt xelatex\\\\\\\\nRunning the command C:\\\\\
+\\\\\\\\\\\\texlive\\\\\\\\\\\\\\\\2020\\\\\\\\\\\\\\\\bin\\\\\\\\\\\\\\\\\
+win32\\\\\\\\\\\\\\\\fmtutil-user.exe\\\\\\\\n\\\\\\\\nkpathsea: Running \
+mktexfmt xelatex.fmt\\\\\\\\n\\\\\\\\nThe command name is \
+C:\\\\\\\\\\\\\\\\texlive\\\\\\\\\\\\\\\\2020\\\\\\\\\\\\\\\\bin\\\\\\\\\\\\\\\
+\\win32\\\\\\\\\\\\\\\\mktexfmt\\\\\\\"\\\", \\\"OutputForm\\\", \
+Rule[StripOnInput, False]]\\)\"",2,3,6,25029174744857433619,"Local",
+   "MaTeX`MaTeX"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8149144302900333`*^9, {3.8149144726671133`*^9, 3.8149144991058598`*^9}, 
+   3.814914542696536*^9, 3.8149164571309414`*^9, 3.814916756894245*^9, 
+   3.814916944691332*^9, {3.8149169965680103`*^9, 3.8149170163043118`*^9}, 
+   3.814918469811927*^9, 3.8149186654474344`*^9, 3.8149187200885725`*^9, 
+   3.8149196938390293`*^9, 3.814921105237702*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[3]:=",ExpressionUUID->"878a2ecf-8e55-40c9-a83b-\
+2e545855de45"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{
+  3.814914430307971*^9, {3.8149144726900525`*^9, 3.8149144991307907`*^9}, 
+   3.81491454271349*^9, 3.814916457533823*^9, 3.8149167569122343`*^9, 
+   3.8149169447103143`*^9, {3.814916996613849*^9, 3.8149170163302803`*^9}, 
+   3.8149184698965435`*^9, 3.8149186654786806`*^9, 3.8149187201041927`*^9, 
+   3.8149196938546147`*^9, 3.814921105237702*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"7938f59c-7ffa-43ff-ae0e-cb1d00e01ca8"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"MaTeX", "[", "\"\<\\\\sum_{k=1}^{\\\\infty} \\\\frac{1}{k}\>\"", 
+  "]"}]], "Input",ExpressionUUID->"68a309d5-e118-4220-a0ca-ec4311f553a9"]
+}, Open  ]]
+},
+WindowSize->{1920, 1025},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[422, 15, 191, 4, 53, "Code",ExpressionUUID->"1c5a7444-4537-4ddd-aff8-993e4e1441f1"],
+Cell[616, 21, 1096, 20, 35, "Output",ExpressionUUID->"52c1f7de-cf01-4cc8-bfab-5788af4fd0a6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1749, 46, 334, 5, 62, "Section",ExpressionUUID->"a713ee2b-5bb2-4d82-8d04-16ef94178d37"],
+Cell[CellGroupData[{
+Cell[2108, 55, 1133, 16, 76, "Code",ExpressionUUID->"a08c821c-672b-46d2-9a29-1c2d1399e408"],
+Cell[3244, 73, 599, 12, 23, "Message",ExpressionUUID->"759151b6-1933-4d17-bfe3-afebdbf4f822"],
+Cell[3846, 87, 156, 2, 35, "Output",ExpressionUUID->"183b7fd2-8fe2-46a0-b786-7ec7bde07adc"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4051, 95, 338, 5, 62, "Section",ExpressionUUID->"4a5b501f-ddec-43c1-b479-3a2cd981cca9"],
+Cell[CellGroupData[{
+Cell[4414, 104, 344, 5, 76, "Code",ExpressionUUID->"b69e7ac9-e461-43d1-a15e-4f16efe7508f"],
+Cell[4761, 111, 547, 11, 23, "Message",ExpressionUUID->"f057251e-2663-4b99-9f76-cf0856748798"],
+Cell[5311, 124, 224, 3, 35, "Output",ExpressionUUID->"6a3908bd-c849-4f51-83e2-f1b2f0f7e600"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5572, 132, 717, 16, 53, "Code",ExpressionUUID->"a30a0ad9-67ea-4803-a280-6797434f8740"],
+Cell[6292, 150, 944, 17, 23, "Message",ExpressionUUID->"65f4a63b-75f3-40c4-81c6-a38ac140249a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7273, 172, 280, 6, 53, "Code",ExpressionUUID->"3463d43d-d557-498c-8ed1-7b2863f30a19"],
+Cell[7556, 180, 207, 3, 35, "Output",ExpressionUUID->"8d2d2def-5ec8-4953-8a36-ca7aa8708c6b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7812, 189, 317, 5, 62, "Section",ExpressionUUID->"85cc6f8a-0f26-4f6e-9f53-1606fa4eec5b"],
+Cell[CellGroupData[{
+Cell[8154, 198, 539, 14, 76, "Code",ExpressionUUID->"cd1af239-7867-4c19-bd60-162c262cb835"],
+Cell[8696, 214, 466, 10, 35, "Output",ExpressionUUID->"fdc7a6a9-a078-468a-9534-a56d3f9bf42f"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9211, 230, 312, 5, 62, "Section",ExpressionUUID->"7699a2b6-464b-4214-8dc3-115e28027e86"],
+Cell[CellGroupData[{
+Cell[9548, 239, 798, 17, 76, "Code",ExpressionUUID->"a7f35fd8-54c9-4dc2-9c8d-a0576a072c60"],
+Cell[10349, 258, 1182, 20, 35, "Output",ExpressionUUID->"43e9e4cd-160e-4b8a-a512-50d53d22c739"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11580, 284, 316, 5, 62, "Section",ExpressionUUID->"db5be596-d400-47e5-b3b2-abcb0693a41b"],
+Cell[CellGroupData[{
+Cell[11921, 293, 680, 14, 76, "Code",ExpressionUUID->"1ba5273d-72df-4981-a8d2-f9e4160d9bd9"],
+Cell[12604, 309, 642, 13, 35, "Output",ExpressionUUID->"f940e46d-59e4-45d8-8f9d-70191aed78a0"]
+}, Open  ]],
+Cell[13261, 325, 2032, 50, 164, "Code",ExpressionUUID->"40bfc420-f596-4b25-816b-d11a88c25e97"],
+Cell[CellGroupData[{
+Cell[15318, 379, 206, 3, 28, "Input",ExpressionUUID->"1c694ece-e0c6-41f9-9aef-398729fbad69"],
+Cell[15527, 384, 181, 3, 32, "Output",ExpressionUUID->"6c9e5053-fe7a-4472-a30e-b1cecc6b9b09"]
+}, Open  ]],
+Cell[15723, 390, 197, 3, 28, "Input",ExpressionUUID->"a6177ff7-9a34-4f8c-8d61-3218a0ca644d"],
+Cell[CellGroupData[{
+Cell[15945, 397, 190, 3, 44, "Input",ExpressionUUID->"9dfbea03-61ea-45db-bffe-bea83861a4be"],
+Cell[16138, 402, 175, 2, 32, "Output",ExpressionUUID->"1bd217a8-416d-406d-ad20-32a5407a8424"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16350, 409, 317, 6, 44, "Input",ExpressionUUID->"c056b266-9793-4c0d-9e85-20407cf45bf7"],
+Cell[16670, 417, 12330, 174, 6935, "Print",ExpressionUUID->"ff7f8c7b-eaf9-4b39-b15e-f3e18f7a514b"],
+Cell[29003, 593, 2397, 40, 35, "Output",ExpressionUUID->"e25d75d8-e8e3-425b-a49f-8456bcaab658"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31437, 638, 243, 4, 28, "Input",ExpressionUUID->"1e00905b-3539-4dae-8caa-e631321f1e2d"],
+Cell[31683, 644, 2748, 47, 57, "Output",ExpressionUUID->"5d0d8106-f55f-4a74-a57b-d6133f9cdc6a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34468, 696, 440, 7, 44, "Input",ExpressionUUID->"3626e61a-7c2b-48eb-9dd5-0fa904331ed5"],
+Cell[34911, 705, 946, 17, 42, "Message",ExpressionUUID->"0aa67879-ca6f-4d98-900e-5290066f12c7"],
+Cell[35860, 724, 332, 6, 22, "Print",ExpressionUUID->"d1dc02c4-7080-4250-89e0-dc192abc6b9a"],
+Cell[36195, 732, 757, 16, 42, "Message",ExpressionUUID->"3e033a0e-ea94-4a44-9eef-4e669eef4586"],
+Cell[36955, 750, 2125, 35, 324, "Message",ExpressionUUID->"878a2ecf-8e55-40c9-a83b-2e545855de45"],
+Cell[39083, 787, 480, 7, 32, "Output",ExpressionUUID->"7938f59c-7ffa-43ff-ae0e-cb1d00e01ca8"]
+}, Open  ]],
+Cell[39578, 797, 163, 2, 28, "Input",ExpressionUUID->"68a309d5-e118-4220-a0ca-ec4311f553a9"]
+}, Open  ]]
+}
+]
+*)
+
